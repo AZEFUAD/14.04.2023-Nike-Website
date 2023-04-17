@@ -1,0 +1,17 @@
+{
+  "name": "nike",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:watch": "sass --watch scss:css ",
+    "compile": "sass  scss:css ",
+    "compile:all": "sass --watch  scss:css  --style compressed"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.61.0"
+  }
+}

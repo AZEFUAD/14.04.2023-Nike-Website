@@ -1,0 +1,32 @@
+@mixin centerFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@mixin shopButton {
+    .buttons>div>button>a {
+        border-radius: 30px;
+        text-decoration: none;
+        color: white;
+        background-color: black;
+        padding: 10px 22px 10px 22px;
+    }
+    .buttons>div>button>a:hover {
+        background-color: rgb(161, 166, 166);
+        color: white;
+    }
+
+
+    .buttons>div>button {
+        padding: 0;
+        text-align: center;
+        border: none;
+        background: none;
+        margin-top: 24px;
+        margin: 6px 6px 0 0;
+    }
+
+   
+}
